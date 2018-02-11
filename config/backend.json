@@ -1,0 +1,9 @@
+{
+  "dataUri": "http://localhost:8000",
+  "startPath": "/",
+  "profiles": {
+    "dev": {
+      "startPath": "/mock/pages/index.json"
+    }
+  }
+}

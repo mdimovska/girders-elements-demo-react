@@ -1,0 +1,37 @@
+{
+  "name": "webApp",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --env.nodeEnv=dev",
+    "build:dev": "webpack --env.nodeEnv=dev",
+    "build:prod": "webpack --env.nodeEnv=prod"
+  },
+  "dependencies": {
+    "@girders-elements/config": "^1.0.0-alpha.26",
+    "@girders-elements/core": "^1.0.0-alpha.26",
+    "glamor": "^2.20.40",
+    "glamorous": "^4.11.4",
+    "immutable": "^3.8.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "redux": "^3.7.2",
+    "regenerator-runtime": "^0.11.1",
+    "styled-components": "^3.1.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.39",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.39",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.39",
+    "@babel/preset-env": "^7.0.0-beta.39",
+    "@babel/preset-react": "^7.0.0-beta.39",
+    "babel-loader": "^8.0.0-beta.0",
+    "clean-webpack-plugin": "^0.1.18",
+    "copy-webpack-plugin": "^4.3.1",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-merge": "^4.1.1"
+  }
+}
