@@ -2,8 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './polyfills'
 
-import { Engine } from '@girders-elements/core'
-import './src/elements' // register all elements in Girders Elements
+import { Engine } from '@skele/classic'
+import './src/elements' // register all elements in Skele
 
 import initialState from './config/init'
 import config from './config'

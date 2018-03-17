@@ -1,3 +1,3 @@
-# Girders Elements Demo - React
+# Skele Demo - React
 
-Data-driven application, based on [React](https://reactjs.org/) and [Girders Elements Framework](https://github.com/netceteragroup/girders-elements).
+Data-driven application, based on [React](https://reactjs.org/) and [Girders Elements/Skele Framework](https://github.com/netceteragroup/skele).

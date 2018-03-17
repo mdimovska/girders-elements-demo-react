@@ -1,5 +1,5 @@
 {
-  "name": "webApp",
+  "name": "skele-demo-react",
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,8 @@
     "build:prod": "webpack --env.nodeEnv=prod"
   },
   "dependencies": {
-    "@girders-elements/config": "^1.0.0-alpha.26",
-    "@girders-elements/core": "^1.0.0-alpha.26",
+    "@skele/classic": "^1.0.0-alpha.27",
+    "@skele/config": "^1.0.0-alpha.27",
     "glamor": "^2.20.40",
     "glamorous": "^4.11.4",
     "immutable": "^3.8.2",
